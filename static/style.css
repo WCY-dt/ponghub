@@ -194,7 +194,6 @@ body {
     color: var(--primary-color);
     word-break: break-all;
     font-weight: 500;
-    letter-spacing: 0.5px;
 }
 
 .port-block .port-response-time {
@@ -349,6 +348,5 @@ body {
         margin-bottom: 2px;
         color: var(--primary-color);
         font-weight: 500;
-        letter-spacing: 0.5px;
     }
 }
