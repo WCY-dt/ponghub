@@ -189,9 +189,70 @@ body {
 .port-block .port-url {
     grid-row: 1;
     grid-column: 1;
-    min-width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     color: var(--primary-color);
     word-break: break-all;
+    font-weight: 500;
+}
+
+.port-url .url-text {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.port-url .cert-status {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+}
+.cert-status.cert-status-red {
+    color: var(--red-color);
+}
+.cert-status.cert-status-yellow {
+    color: var(--yellow-color);
+}
+.cert-status.cert-status-green {
+    color: var(--green-color);
+}
+.cert-status.cert-status-gray svg {
+    fill: var(--gray-color);
+}
+.cert-status.cert-status-red svg {
+    fill: var(--red-color);
+}
+.cert-status.cert-status-yellow svg {
+    fill: var(--yellow-color);
+}
+.cert-status.cert-status-green svg {
+    fill: var(--green-color);
+}
+
+.cert-status.cert-status-red:hover::after,
+.cert-status.cert-status-yellow:hover::after,
+.cert-status.cert-status-green:hover::after,
+.status-bar .status-rect:hover::after {
+    content: attr(data-time);
+    position: absolute;
+    left: 50%;
+    top: -30px;
+    transform: translateX(-50%);
+    background: var(--white-color);
+    font-size: 0.88em;
+    padding: 4px 12px;
+    border-radius: 8px;
+    border: 1px solid #e0e7ef;
+    white-space: nowrap;
+    box-shadow: 0 4px 16px rgba(44, 124, 255, 0.10);
+    z-index: 10;
+    pointer-events: none;
+    opacity: 1;
     font-weight: 500;
 }
 
@@ -237,25 +298,6 @@ body {
 
 .port-block:hover .status-bar .status-rect {
     background: var(--gray-color);
-}
-
-.status-bar .status-rect:hover::after {
-    content: attr(data-time);
-    position: absolute;
-    left: 50%;
-    top: -38px;
-    transform: translateX(-50%);
-    background: var(--white-color);
-    font-size: 0.88em;
-    padding: 4px 12px;
-    border-radius: 8px;
-    border: 1px solid #e0e7ef;
-    white-space: nowrap;
-    box-shadow: 0 4px 16px rgba(44, 124, 255, 0.10);
-    z-index: 10;
-    pointer-events: none;
-    opacity: 1;
-    font-weight: 500;
 }
 
 .status-rect.status-unknown {
