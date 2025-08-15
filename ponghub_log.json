@@ -484,6 +484,10 @@
       {
         "time": "2025-08-15T08:19:45Z",
         "status": "all"
+      },
+      {
+        "time": "2025-08-15T08:46:31Z",
+        "status": "all"
       }
     ],
     "endpoints": {
@@ -1090,6 +1094,11 @@
         },
         {
           "time": "2025-08-15T08:19:46Z",
+          "status": "all",
+          "response_time": 54
+        },
+        {
+          "time": "2025-08-15T08:46:31Z",
           "status": "all",
           "response_time": 54
         }
@@ -1699,6 +1708,11 @@
           "time": "2025-08-15T08:19:46Z",
           "status": "all",
           "response_time": 69
+        },
+        {
+          "time": "2025-08-15T08:46:31Z",
+          "status": "all",
+          "response_time": 82
         }
       ],
       "https://mind.ch3nyang.top": [
@@ -2306,6 +2320,11 @@
           "time": "2025-08-15T08:19:47Z",
           "status": "all",
           "response_time": 128
+        },
+        {
+          "time": "2025-08-15T08:46:32Z",
+          "status": "all",
+          "response_time": 48
         }
       ],
       "https://til.ch3nyang.top": [
@@ -2913,6 +2932,11 @@
           "time": "2025-08-15T08:19:46Z",
           "status": "all",
           "response_time": 71
+        },
+        {
+          "time": "2025-08-15T08:46:32Z",
+          "status": "all",
+          "response_time": 48
         }
       ]
     }
@@ -3401,6 +3425,10 @@
       },
       {
         "time": "2025-08-15T08:19:47Z",
+        "status": "part"
+      },
+      {
+        "time": "2025-08-15T08:46:32Z",
         "status": "part"
       }
     ],
@@ -4004,6 +4032,10 @@
         {
           "time": "2025-08-15T08:19:58Z",
           "status": "none"
+        },
+        {
+          "time": "2025-08-15T08:46:43Z",
+          "status": "none"
         }
       ],
       "https://2024.ch3nyang.top/health": [
@@ -4604,6 +4636,10 @@
         },
         {
           "time": "2025-08-15T08:19:48Z",
+          "status": "none"
+        },
+        {
+          "time": "2025-08-15T08:46:33Z",
           "status": "none"
         }
       ],
@@ -5212,6 +5248,11 @@
           "time": "2025-08-15T08:19:47Z",
           "status": "all",
           "response_time": 422
+        },
+        {
+          "time": "2025-08-15T08:46:33Z",
+          "status": "all",
+          "response_time": 197
         }
       ],
       "https://docker-registry.ch3nyang.top/v2": [
@@ -5819,6 +5860,11 @@
           "time": "2025-08-15T08:19:58Z",
           "status": "all",
           "response_time": 124
+        },
+        {
+          "time": "2025-08-15T08:46:43Z",
+          "status": "all",
+          "response_time": 118
         }
       ]
     }
