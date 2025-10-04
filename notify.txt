@@ -1,5 +1,5 @@
 === PongHub Service Status Report ===
-Generated at: 2025-10-04 16:39:59
+Generated at: 2025-10-04 17:10:45
 
 
 🔐 CERTIFICATE ISSUES:
@@ -10,15 +10,15 @@ Generated at: 2025-10-04 16:39:59
     ⚠️  Certificate Status: EXPIRES SOON
     Days Remaining: 7
     Status Code: 200
-    Response Time: 193.767228ms
-    Check Time: 2025-10-04T16:39:58Z - 2025-10-04T16:39:58Z
+    Response Time: 158.95495ms
+    Check Time: 2025-10-04T17:10:44Z - 2025-10-04T17:10:44Z
 
   • URL: https://docker-registry.ch3nyang.top/v2
     ⚠️  Certificate Status: EXPIRES SOON
     Days Remaining: 7
     Status Code: 401
-    Response Time: 18.528986ms
-    Check Time: 2025-10-04T16:39:58Z - 2025-10-04T16:39:58Z
+    Response Time: 102.693893ms
+    Check Time: 2025-10-04T17:10:45Z - 2025-10-04T17:10:45Z
 
 
 📊 SUMMARY:
