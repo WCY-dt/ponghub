@@ -2,7 +2,7 @@ name: Auto Deploy Report
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 12 * * *'
   workflow_dispatch:
 
 permissions:
