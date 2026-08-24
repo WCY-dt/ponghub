@@ -463,3 +463,8 @@ make test
 ## 免责声明
 
 [PongHub](https://github.com/WCY-dt/ponghub) 仅用于个人学习和研究，不对程序的使用行为或结果负责。请勿将其用于商业用途或非法活动。
+
+<div align="center">
+  <img src="imgs/sponsor.png" alt="Sponsor PongHub"/>
+  <p>Made with ❤️ by the PongHub Team</p>
+</div>
